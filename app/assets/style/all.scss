@@ -21,3 +21,15 @@ $color: #00cc99;
     background-color: $color;
   }
 }
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: flex;
+  transition: all 0.5s;
+  &:hover {
+    width: 200px;
+    background-color: $color;
+  }
+}
